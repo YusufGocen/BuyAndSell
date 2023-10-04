@@ -1,0 +1,181 @@
+.top-bar{
+    padding-top: 1rem;
+}
+.btn-light{
+    background-color: white;
+    color: $dark;
+    border: none;
+}
+.btn-light:hover{
+    border: none;
+    color: $primary;
+    background-color: #fff;
+}
+.btn-light:hover i{
+    color: $primary;
+}
+.btn-light i{
+   color: $dark;
+   background-color: transparent;
+}
+.nav-link{
+    color: $dark;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: $primary;
+    text-decoration:underline;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 900;
+} 
+#img-height{ 
+    height: 400px;
+}
+.checked{
+    font-size: 11px;
+    color: $warning;
+}
+.buy{
+    font-size: 11px;
+    color: #919191;
+}
+.img-wrap{
+    position: relative;
+    height: 240px;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+.card .img-wrap img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+.badge{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.btn-heart:hover{
+    color: $danger;
+}
+.card .title{
+    display: block;
+    color: #51585e;
+    text-decoration: none;
+}
+.card .info-wrap{
+    padding: 1rem 1rem;
+}
+.img-logo{
+    height: 50px; 
+    width: 50px;
+}
+.img-logo{
+    cursor: pointer;
+    width: 68px;
+    height: 68px;
+}
+#arrow{
+    cursor: pointer;
+}
+#arrow:hover{
+    transform: translateY(-5px);
+    transition: 1s;
+}
+.img-logo{
+    display: block;
+    font-size: 200px;
+}
+.menu{
+    list-style-type: none;
+}
+.menu li a{
+    color:$info;
+    text-decoration: none;
+}
+.social{
+    color: $info;
+    text-align: center;
+    font-size: 32px;
+}
+.fa-brands{
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transition: 1s;
+    transform: translateY(-5px);
+}
+#google-play:hover{
+    color: #3bccf3;
+}
+#app-store:hover{
+    color: #3bccf3;
+    transition: 1s;
+}
+#instagram:hover{
+    color: #DD2A7B;
+}
+#twitter:hover{
+    color: #00aced;
+}
+#youtube:hover{
+    color: #bb0000
+}
+#facebook:hover{
+    color: #3b5998;
+}
+#pinterest:hover{
+    color: #bb0000
+}
+
+// Details
+
+.breadcrumb li a{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.75;
+}
+.img-big-wrap img{
+    display: block;
+    height: 400px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+}
+.img-big-wrap a{
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+.thumbs-wrap{
+    margin-top: 1rem;
+    text-align: center;    
+}
+.thumbs-wrap img{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #dde2e6 ;
+    border-radius: 0.4rem;
+    margin: 3px;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: zoom-in;
+}
+
+.login:hover{
+    color: black;
+    background-color: $primary;
+}
+.register:hover{
+    color: black;
+    background-color: $primary;
+}
+.more:hover{
+    color: black;
+    background-color: $primary;
+}
